@@ -1,0 +1,9 @@
+import { StyleSheet } from 'react-native';
+import { ApplicationStyles, Fonts, Colors, Metrics } from 'horus-native/app/styles';
+
+export default StyleSheet.create({
+	...ApplicationStyles.screen,
+	navbarHeight: {
+		height: Metrics.navBarHeight
+	}
+});

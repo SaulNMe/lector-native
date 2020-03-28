@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering renders as expected 1`] = `
+<Component
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+      },
+      Object {
+        "width": "100%",
+      },
+    ]
+  }
+>
+  <Component
+    style={
+      Object {
+        "width": 50,
+      }
+    }
+  >
+    <SubtitleText
+      text="13:37"
+      weight="light"
+    />
+  </Component>
+  <Component
+    style={
+      Array [
+        Object {
+          "marginHorizontal": 16,
+        },
+        Object {
+          "height": 24,
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#444",
+            "borderRadius": 10,
+            "height": 10,
+            "marginRight": 5,
+            "width": 10,
+          },
+          Object {
+            "backgroundColor": "#7DDFDA",
+          },
+        ]
+      }
+      testID="entry-color-indicator"
+    />
+  </Component>
+  <Component
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <SubtitleText
+      testID="entry-message"
+      text="Entrada"
+      weight="bold"
+    />
+    <BodyText
+      text="name"
+      weight="light"
+    />
+  </Component>
+</Component>
+`;
